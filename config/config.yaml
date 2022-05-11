@@ -11,3 +11,5 @@ HTTPServer:
     LogLinePreset: "framework"
 ApplicationLogger:
   GlobalLogLevel: INFO
+Service:
+  CSVStore: Book.csv

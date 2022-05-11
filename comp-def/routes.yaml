@@ -9,4 +9,4 @@ components:
     HTTPMethod: GET
     Logic:
       type: people.PeopleIndex
-    PathPattern: ^/health
+    PathPattern: ^/book
