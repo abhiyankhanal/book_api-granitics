@@ -1,0 +1,12 @@
+packages:
+  # List of package names (e.g granitic.ws) referenced by components in this file.
+  - github.com/graniticio/granitic/v2/ws/handler
+
+components:
+  # Definition of components you want to be managed by Granitic
+  getHealthHandler:
+    type: handler.WsHandler
+    HTTPMethod: GET
+    Logic:
+      type: people.PeopleIndex
+    PathPattern: ^/health
