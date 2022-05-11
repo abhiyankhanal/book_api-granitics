@@ -1,7 +1,7 @@
 package main
 
 import (
-	"peopleapi/bindings"
+	"bookapi/bindings"
 
 	gy "github.com/graniticio/granitic-yaml/v2"
 )

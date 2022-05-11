@@ -1,4 +1,4 @@
-module mymod
+module bookapi
 
 go 1.17
 
